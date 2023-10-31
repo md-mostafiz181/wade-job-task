@@ -1,0 +1,27 @@
+#navbar-part{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.555);
+    z-index: 9999;
+    
+}
+
+#navbar-part li{
+    margin: 0 5px;
+}
+
+#navbar-part li a{
+    background-color:rgba(255, 68, 0, 0.774) ;
+    color: white;
+    clip-path: polygon(0% 0%, 75% 0%, 100% 0, 94% 95%, 7% 94%);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    transition: .4s;
+    
+    
+}
+
+#navbar-part li a:hover{
+    background-color: transparent;
+    color: black;
+}
+

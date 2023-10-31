@@ -1,0 +1,13 @@
+#footer-part{
+    background-color: rgba(0, 0, 0, 0.555);
+}
+
+
+
+#footer-part .footer-info{
+    z-index: 999;
+}
+
+#footer-part nav header{
+    z-index: 9999;
+}

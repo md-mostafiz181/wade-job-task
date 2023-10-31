@@ -1,0 +1,28 @@
+#blog-part{
+    padding: 50px 0;
+    
+    
+}
+
+#blog-part .blog-item .img{
+    position: relative;
+    
+}
+
+
+
+#blog-part .blog-item .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    opacity: 0;
+    transition: .4s;
+    background-color: rgba(0, 0, 0, 0.466);
+}
+
+#blog-part .blog-item .img:hover .overlay{
+    height: 100%;
+    opacity: 1;
+}

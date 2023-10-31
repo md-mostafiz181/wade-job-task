@@ -1,0 +1,23 @@
+#business-part{
+    padding: 100px 0;
+    background-color: #FDFAF0;
+    
+}
+
+#business-part .business-main{
+    position: relative;
+}
+
+#business-part .business-main .inner-one{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+
+#business-part .business-main .inner-two{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    transform: translateY(-50%);
+}

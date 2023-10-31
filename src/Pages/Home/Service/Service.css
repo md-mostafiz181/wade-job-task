@@ -1,0 +1,16 @@
+#service-part{
+    padding: 100px 0;
+    background-color: #1B1D1F;
+    
+}
+
+#service-part .service-left{
+    position: relative;
+
+}
+
+#service-part .service-inner{
+    position: absolute;
+    top: 280px;
+    left: 460px;
+}

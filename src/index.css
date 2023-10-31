@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.primaryFonts{
+  font-family: 'Poppins', sans-serif;
+}
+
+.primaryTextColor{
+  color: gray;
+}
+
+.primaryBg{
+  background-color: white;
+}
